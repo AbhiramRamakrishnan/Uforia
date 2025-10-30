@@ -49,7 +49,7 @@ const Hero = (prop) => {
                             <CountDown />
                         </div>
                         <div className='cta mt-10 md:mt-15'>
-                            <a href="/soon">
+                            <a href="https://in.bookmyshow.com/events/uforia/ET00468281?webview=true">
                                 <button className='text-sm md:text-base montserrat-semibold py-2 px-6 bg-[#E83DDC] rounded-xl'>Book Tickets</button>
                             </a>
                         </div>
