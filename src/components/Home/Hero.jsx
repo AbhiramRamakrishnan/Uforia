@@ -30,7 +30,7 @@ const Hero = (prop) => {
                 <div className="relative z-10 w-full text-center flex flex-col-reverse md:flex md:flex-row px-20 md:px-40 h-full pt-10 md:pt-18">
                     <div className='md:w-1/2 sm:w-full text-center md:text-left pt-2 md:pt-5'>
                         <div className='head'>
-                            <h3 className='text-sm md:text-base text-white opacity-90 open-sans-medium'>FYNORA PRESENTS</h3>
+                            <h3 className='text-sm md:text-base text-white opacity-90 open-sans-medium'>FYNORA ENTERTAINMENTS</h3>
                             <h1 className='text-5xl md:text-6xl text-white opacity-100 montserrat-bold mt-3'>UFORIA 2025</h1>
                             <h6 className='text-lg md:text-xl text-white opacity-70 poppins-regular mt-4'>One Stage Infinite Vibe</h6>
                         </div>
