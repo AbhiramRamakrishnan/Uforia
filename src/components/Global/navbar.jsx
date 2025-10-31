@@ -188,7 +188,7 @@ const NAV_LINKS = [
   { name: "Artists", href: "/soon" },
   { name: "Events", href: "/soon" },
   { name: "Gallery", href: "/soon" },
-  { name: "Tickets", href: "/soon" },
+  { name: "Updates", href: "/soon" },
   { name: "Contact", href: "/soon" },
   { name: "More", href: "/soon" },
 ];
