@@ -51,7 +51,7 @@ export default function EventVidGallery({ videos }) {
 
           {/* View More Circle */}
           <Link
-            to="/gallery#videos"
+            to="/videos"
             className="flex-none w-40 h-40 bg-gray-200 hover:bg-gray-300 rounded-full flex justify-center items-center text-gray-700 font-semibold"
           >
             View More →

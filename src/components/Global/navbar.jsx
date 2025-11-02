@@ -185,10 +185,10 @@ import { Link, NavLink } from "react-router-dom";
 const NAV_LINKS = [
   { name: "Home", href: "/" },
   { name: "About", href: "/about" },
-  { name: "Artists", href: "/soon" },
   { name: "Events", href: "/events" },
-  { name: "Gallery", href: "/soon" },
   { name: "Updates", href: "/soon" },
+  { name: "Gallery", href: "/soon" },
+  { name: "Videos", href: "/soon" },
   { name: "Contact", href: "/soon" },
   { name: "More", href: "/soon" },
 ];
