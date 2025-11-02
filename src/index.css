@@ -156,3 +156,15 @@
   font-variation-settings:
     "wdth" 100;
 }
+
+
+/* Scroll Bar Behaviour */
+
+/* Hide scrollbar on elements with class 'scrollbar-hide' */
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+.scrollbar-hide {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;     /* Firefox */
+}

@@ -186,7 +186,7 @@ const NAV_LINKS = [
   { name: "Home", href: "/" },
   { name: "About", href: "/about" },
   { name: "Artists", href: "/soon" },
-  { name: "Events", href: "/soon" },
+  { name: "Events", href: "/events" },
   { name: "Gallery", href: "/soon" },
   { name: "Updates", href: "/soon" },
   { name: "Contact", href: "/soon" },
