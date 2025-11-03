@@ -19,7 +19,7 @@ const EventHero = (props) => {
             />
 
             {/* Centered Text */}
-            <h1 className="relative text-white text-5xl md:text-6xl font-extrabold uppercase tracking-wider">
+            <h1 className="relative text-white text-5xl md:text-6xl uppercase tracking-wider poppins-black">
                 Events
             </h1>
         </section>

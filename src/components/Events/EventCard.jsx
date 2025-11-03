@@ -25,14 +25,15 @@ export default function EventCard({ event }) {
           </span>
         </div>
         <p className="text-gray-600 mt-2 poppins-regular">{event.shortDescription}</p>
-        <div className="flex gap-5">
+        <div className="flex gap-2">
           <p className="text-sm text-gray-400 mt-1">{event.date}</p>
+          <p className="text-sm text-gray-400 mt-1">|</p>
           <p className="text-sm text-gray-400 mt-1">{event.venue}</p>
         </div>
         
         <Link
           to={`/events/${event.id}`}
-          className="mt-4 inline-block bg-black text-white px-4 py-2 rounded-xl hover:bg-gray-800 transition"
+          className="mt-4 inline-block bg-black text-white px-4 py-2 rounded-xl hover:bg-gray-800 transition poppins-regular"
         >
           Read More
         </Link>

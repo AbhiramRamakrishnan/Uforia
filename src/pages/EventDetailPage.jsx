@@ -5,7 +5,7 @@ import NavLogo from '../assets/navbar-logo.png'
 import EventDetail from "../components/EventsDetails/EventDetails";
 import Navbar from "../components/Global/navbar";
 
-export default function EventDetailPage() {
+export default function EventDetails() {
   const { id } = useParams();
   const event = events.find((e) => e.id === parseInt(id));
 
@@ -17,7 +17,7 @@ export default function EventDetailPage() {
       
       <EventDetail event={event}  HeroImg={HeroImg} />
 
-      <div className="text-center mt-6">
+      <div className="text-center pb-20">
         <Link
           to="/events"
           className="bg-black text-white px-4 py-2 rounded-xl hover:bg-gray-800 transition"

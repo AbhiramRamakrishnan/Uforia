@@ -18,7 +18,7 @@ export default function EventVidGallery({ videos }) {
   return (
     <div className="mb-12 bg-gray-100 rounded-2xl p-6 shadow-sm relative">
       <div className="flex justify-between items-center mb-4">
-        <h2 className="text-2xl font-semibold text-gray-800">Highlight Videos</h2>
+        <h2 className="text-2xl font-semibold text-gray-800 montserrat-semibold">Highlight Videos</h2>
       </div>
 
       <div className="relative">
@@ -52,7 +52,7 @@ export default function EventVidGallery({ videos }) {
           {/* View More Circle */}
           <Link
             to="/videos"
-            className="flex-none w-40 h-40 bg-gray-200 hover:bg-gray-300 rounded-full flex justify-center items-center text-gray-700 font-semibold"
+            className="flex-none w-40 h-40 bg-gray-200 hover:bg-gray-300 rounded-full flex justify-center items-center text-gray-700 poppins-regular"
           >
             View More →
           </Link>

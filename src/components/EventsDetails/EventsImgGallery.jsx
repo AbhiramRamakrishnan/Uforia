@@ -18,7 +18,7 @@ export default function EventImgGallery({ images }) {
   return (
     <div className="mb-12 bg-gray-50 rounded-2xl p-6 shadow-sm relative">
       <div className="flex justify-between items-center mb-4">
-        <h2 className="text-2xl font-semibold text-gray-800">Event Gallery</h2>
+        <h2 className="text-2xl font-semibold text-gray-800 montserrat-semibold">Event Gallery</h2>
       </div>
 
       {/* Scrollable Gallery */}
@@ -53,7 +53,7 @@ export default function EventImgGallery({ images }) {
           {/* View More Circle */}
           <Link
             to="/gallery#images"
-            className="flex-none w-40 h-40 bg-gray-200 hover:bg-gray-300 rounded-full flex justify-center items-center text-gray-700 font-semibold"
+            className="flex-none w-40 h-40 bg-gray-200 hover:bg-gray-300 rounded-full flex justify-center items-center text-gray-700 poppins-regular"
           >
             View More →
           </Link>

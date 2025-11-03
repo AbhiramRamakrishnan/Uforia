@@ -7,7 +7,7 @@ import EventVideoGallery from "../EventsDetails/EventsVidGallery";
 
 export default function EventDetails({ event }) {
   if (!event) {
-    return <p className="text-center mt-20 text-gray-600">Event not found</p>;
+    return <p className="text-center mt-20 text-gray-600 poppins-semibold">Event not found</p>;
   }
 
   const imageScrollRef = useRef(null);
@@ -37,7 +37,7 @@ export default function EventDetails({ event }) {
         <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent rounded-2xl" />
         <div className="absolute bottom-6 left-6 text-white">
           <span
-            className={`inline-block px-3 py-1 rounded-lg text-sm font-semibold mb-2 ${
+            className={`inline-block px-3 py-1 rounded-lg text-sm font-semibold mb-2 poppins-regular ${
               event.status === "live"
                 ? "bg-red-500"
                 : event.status === "upcoming"
@@ -47,9 +47,9 @@ export default function EventDetails({ event }) {
           >
             {event.status.toUpperCase()}
           </span>
-          <h1 className="text-4xl font-bold">{event.name}</h1>
-          <p className="text-sm text-gray-200 mt-1">
-            📍 {event.location} | 📅 {event.date}
+          <h1 className="text-4xl font-bold montserrat-bold">{event.name}</h1>
+          <p className="text-sm text-gray-200 mt-1 open-sans-regular">
+             {event.venue} |  {event.date}
           </p>
         </div>
       </div>
@@ -61,12 +61,12 @@ export default function EventDetails({ event }) {
             href={event.bookingLink}
             target="_blank"
             rel="noopener noreferrer"
-            className="mb-4 md:mb-0 bg-orange-500 hover:bg-orange-600 text-white font-semibold px-6 py-3 rounded-xl transition-all order-first md:order-none"
+            className="mb-4 md:mb-0 bg-orange-500 hover:bg-orange-600 text-white poppins-semibold px-6 py-3 rounded-xl transition-all order-first md:order-none"
           >
             Book Tickets
           </a>
         )}
-        <p className="text-base text-gray-700 max-w-2xl">
+        <p className="text-base text-gray-700 w-auto poppins-regular">
           {event.longDescription}
         </p>
       </div>
@@ -74,14 +74,14 @@ export default function EventDetails({ event }) {
       {/* Lineup Section */}
       {event.lineup && event.lineup.length > 0 && (
         <div className="mb-10">
-          <h2 className="text-2xl font-semibold mb-3 text-gray-800">
+          <h2 className="text-2xl font-semibold mb-3 text-gray-800 montserrat-semibold">
             Artist/Band Lineup
           </h2>
           <ul className="flex flex-wrap gap-3">
             {event.lineup.map((artist, i) => (
               <li
                 key={i}
-                className="px-4 py-2 bg-gray-100 rounded-full text-gray-700 font-medium"
+                className="px-4 py-2 bg-gray-100 rounded-full text-gray-700 font-medium poppins-medium"
               >
                 {artist}
               </li>
@@ -93,10 +93,10 @@ export default function EventDetails({ event }) {
       {/* Regulations Section */}
       {event.regulations && (
         <div className="mb-10">
-          <h2 className="text-2xl font-semibold mb-3 text-gray-800">
+          <h2 className="text-2xl font-semibold mb-3 text-gray-800 montserrat-semibold">
             Event Regulations
           </h2>
-          <ul className="list-disc list-inside text-gray-700 space-y-2">
+          <ul className="list-disc list-inside text-gray-700 space-y-2 poppins-regular">
             {event.regulations.map((rule, i) => (
               <li key={i}>{rule}</li>
             ))}

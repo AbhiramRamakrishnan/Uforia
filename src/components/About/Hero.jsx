@@ -21,7 +21,7 @@ const Hero = () => {
 
                 {/* CTA (optional) */}
                 <Link
-                    to="/soon"
+                    to="/events"
                     className="mt-6 inline-block px-8 py-3 bg-white text-purple-700 font-semibold rounded-full shadow-lg hover:bg-purple-100 transition"
                 >
                     Discover Our Events
