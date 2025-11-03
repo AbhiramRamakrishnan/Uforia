@@ -16,7 +16,7 @@ export default function EventCard({ event }) {
 
   return (
     <div className="bg-white rounded-2xl shadow-lg overflow-hidden hover:scale-[1.02] transition-all duration-300">
-      <img src={event.image} alt={event.name} className="w-full h-56 object-cover" />
+      <img src={event.image} alt={event.name} className="w-full h-95 object-cover" />
       <div className="p-4">
         <div className="flex justify-between items-center">
           <h2 className="text-xl font-bold montserrat-bold">{event.name}</h2>

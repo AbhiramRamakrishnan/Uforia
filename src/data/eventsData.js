@@ -4,7 +4,7 @@ export const events = [
     name: "Uforia 2025",
     date: "2025-12-20",
     venue: "LULU Mall Trivandrum",
-    image: "/images/gallery/2025TVM/img2.jpg",
+    image: "/images/gallery/2025TVM/img10.jpg",
     shortDescription: "Uforia is the biggest Indie lineup for 2025 from Kerala! And its happening on the spacious outdoors of Trivandrum Lulu Mall! ",
     longDescription:
       "Get ready to witness the pulse of Kerala’s indie scene as Uforia 2025 takes over the grand outdoors of Lulu Mall, Trivandrum! This isn’t just another concert — it’s a full-blown indie revolution, where raw energy, electrifying performances, and pure musical freedom collide. From powerful stage moments to unforgettable crowd vibes, Uforia promises an evening that will redefine live music experiences in the state.",
@@ -13,18 +13,24 @@ export const events = [
     location: "Trivandrum",
     details:
       "Uforia 2025 brings together top-tier artists, futuristic installations, and immersive experiences. Expect a full-day festival of electrifying performances and stunning visuals.",
-    regulations: [
-      "Entry allowed only for individuals aged 16 and above.",
-      "Carry a valid ID for entry verification.",
-      "No outside food, alcohol, or sharp objects allowed.",
-      "Tickets once booked are non-refundable.",
-      "Follow all event and security staff instructions.",
-    ],
+    // regulations: [
+    //   "Entry allowed only for individuals aged 16 and above.",
+    //   "Carry a valid ID for entry verification.",
+    //   "No outside food, alcohol, or sharp objects allowed.",
+    //   "Tickets once booked are non-refundable.",
+    //   "Follow all event and security staff instructions.",
+    // ],
     bookingLink: "https://in.bookmyshow.com/events/uforia/ET00468281?webview=true",
     galleryImages: [
       "/images/gallery/2025TVM/img1.png",
       "/images/gallery/2025TVM/img2.jpg",
       "/images/gallery/2025TVM/img3.jpg",
+      "/images/gallery/2025TVM/img4.jpg",
+      "/images/gallery/2025TVM/img5.jpg",
+      "/images/gallery/2025TVM/img6.jpg",
+      "/images/gallery/2025TVM/img7.jpg",
+      "/images/gallery/2025TVM/img8.jpg",
+      "/images/gallery/2025TVM/img9.jpg",
     ],
     galleryVideos: [
       "/videos/gallery/2025TVM/vid1.mp4",

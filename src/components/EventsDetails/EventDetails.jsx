@@ -32,7 +32,7 @@ export default function EventDetails({ event }) {
         <img
           src={event.image}
           alt={event.name}
-          className="w-full h-80 object-cover rounded-2xl shadow-lg"
+          className="w-full h-110 object-cover rounded-2xl shadow-lg"
         />
         <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent rounded-2xl" />
         <div className="absolute bottom-6 left-6 text-white">
