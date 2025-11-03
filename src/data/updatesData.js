@@ -80,14 +80,14 @@ export const updates = [
     image: "/images/updates/reveals/img6.jpg",
     date: "2025-11-01",
   },
-  {
-    id: 11,
-    type: "reveal",
-    title: "Lineup",
-    description: "The wait is over Kerala!! The biggest indie lineup to grace us this year!!!! 20th December 2025! Lulu Mall Outdoors!",
-    image: "/videos/updates/reveals/vid1.mp4",
-    date: "2025-10-29",
-  },
+  // {
+  //   id: 11,
+  //   type: "reveal",
+  //   title: "Lineup",
+  //   description: "The wait is over Kerala!! The biggest indie lineup to grace us this year!!!! 20th December 2025! Lulu Mall Outdoors!",
+  //   image: "/images/updates/reveals/",
+  //   date: "2025-10-29",
+  // },
   
   
 ];
