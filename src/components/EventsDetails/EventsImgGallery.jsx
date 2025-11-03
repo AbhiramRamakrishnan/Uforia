@@ -52,7 +52,7 @@ export default function EventImgGallery({ images }) {
 
           {/* View More Circle */}
           <Link
-            to="/gallery#images"
+            to="/soon"
             className="flex-none w-40 h-40 bg-gray-200 hover:bg-gray-300 rounded-full flex justify-center items-center text-gray-700 poppins-regular"
           >
             View More →
