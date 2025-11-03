@@ -1,7 +1,7 @@
 export const events = [
   {
     id: 1,
-    name: "Uforia 2025",
+    name: "Uforia",
     date: "2025-12-20",
     venue: "LULU Mall Trivandrum",
     image: "/images/gallery/2025TVM/img10.jpg",
