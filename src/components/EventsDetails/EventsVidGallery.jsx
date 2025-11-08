@@ -19,6 +19,7 @@ export default function EventVidGallery({ videos }) {
     <div className="mb-12 bg-gray-100 rounded-2xl p-6 shadow-sm relative">
       <div className="flex justify-between items-center mb-4">
         <h2 className="text-2xl font-semibold text-gray-800 montserrat-semibold">Highlight Videos</h2>
+        <a href="/videos" className="text-sm font-semibold text-orange-500 montserrat-semibold underline">view more</a>
       </div>
 
       <div className="relative">
@@ -36,7 +37,7 @@ export default function EventVidGallery({ videos }) {
           ref={videoScrollRef}
           className="flex overflow-x-auto space-x-4 scroll-smooth scrollbar-hide"
         >
-          {limitedVideos.slice(0, 4).map((vid, i) => (
+          {limitedVideos.slice(0, 6).map((vid, i) => (
             <div
               key={i}
               className="flex-none w-50 h-50 bg-white rounded-lg flex justify-center items-center shadow-sm"
@@ -51,7 +52,7 @@ export default function EventVidGallery({ videos }) {
 
           {/* View More Circle */}
           <Link
-            to="/soon"
+            to="/videos"
             className="flex-none w-40 h-40 bg-gray-200 hover:bg-gray-300 rounded-full flex justify-center items-center text-gray-700 poppins-regular"
           >
             View More →

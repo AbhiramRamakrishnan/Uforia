@@ -22,7 +22,6 @@ export const events = [
     // ],
     bookingLink: "https://in.bookmyshow.com/events/uforia/ET00468281?webview=true",
     galleryImages: [
-      "/images/gallery/2025TVM/img1.png",
       "/images/gallery/2025TVM/img2.jpg",
       "/images/gallery/2025TVM/img3.jpg",
       "/images/gallery/2025TVM/img4.jpg",
@@ -31,6 +30,7 @@ export const events = [
       "/images/gallery/2025TVM/img7.jpg",
       "/images/gallery/2025TVM/img8.jpg",
       "/images/gallery/2025TVM/img9.jpg",
+      "/images/gallery/2025TVM/img1.png",
     ],
     galleryVideos: [
       "/videos/gallery/2025TVM/vid1.mp4",

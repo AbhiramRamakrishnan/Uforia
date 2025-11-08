@@ -187,8 +187,8 @@ const NAV_LINKS = [
   { name: "About", href: "/about" },
   { name: "Events", href: "/events" },
   { name: "Updates", href: "/updates" },
-  { name: "Gallery", href: "/soon" },
-  { name: "Videos", href: "/soon" },
+  { name: "Gallery", href: "/gallery" },
+  { name: "Videos", href: "/videos" },
   { name: "Contact", href: "/soon" },
   { name: "More", href: "/soon" },
 ];

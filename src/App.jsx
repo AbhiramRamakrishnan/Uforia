@@ -6,6 +6,8 @@ import ComingSoon from './pages/ComingSoon'
 import Events from "./pages/Events";
 import EventDetail from "./pages/EventDetailPage";
 import Updates from './pages/Updates';
+import GalleryPage from './pages/galleryPage'
+import VideosPage from './pages/VideosPage'
 
 
 const App = () => {
@@ -18,6 +20,8 @@ const App = () => {
         <Route path="/events" element={<Events />} />
         <Route path="/events/:id" element={<EventDetail />} />
         <Route path="/updates" element={<Updates />} />
+        <Route path="/gallery" element={<GalleryPage />} />
+        <Route path="/videos" element={<VideosPage />} />
       </Routes>
     </>
   )
