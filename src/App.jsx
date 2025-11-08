@@ -6,7 +6,7 @@ import ComingSoon from './pages/ComingSoon'
 import Events from "./pages/Events";
 import EventDetail from "./pages/EventDetailPage";
 import Updates from './pages/Updates';
-import GalleryPage from './pages/galleryPage'
+import GalleryPage from './pages/GalleryPage'
 import VideosPage from './pages/VideosPage'
 
 
