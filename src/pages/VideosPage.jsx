@@ -4,6 +4,8 @@ import NavLogo from "../assets/navbar-logo.png";
 import { videoData } from "../data/videoData";
 import VideoGrid from "../components/Videos/VideoGrid";
 import VideoModal from "../components/Videos/VideoModal";
+import Footer from '../components/Global/footer';
+
 
 export default function VideosPage() {
   const [selectedIndex, setSelectedIndex] = useState(null);
@@ -52,6 +54,8 @@ export default function VideosPage() {
         onPrev={prevVideo}
         onNext={nextVideo}
       />
+      
+      <Footer />
     </>
   );
 }

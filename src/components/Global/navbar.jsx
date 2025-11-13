@@ -189,7 +189,7 @@ const NAV_LINKS = [
   { name: "Updates", href: "/updates" },
   { name: "Gallery", href: "/gallery" },
   { name: "Videos", href: "/videos" },
-  { name: "Contact", href: "/contact" },
+  { name: "Contact", href: "/soon" },
   { name: "More", href: "/soon" },
 ];
 

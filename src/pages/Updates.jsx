@@ -2,6 +2,8 @@
 import AnnouncementsSection from "../components/Updates/Announcements";
 import RevealsSection from "../components/Updates/Reveals";
 import Navbar from "../components/Global/navbar";
+import Footer from '../components/Global/footer';
+
 import NavLogo from "../assets/navbar-logo.png";
 import { updates } from "../data/updatesData";
 
@@ -39,6 +41,8 @@ export default function Updates() {
         <AnnouncementsSection announcements={announcements} />
         <RevealsSection reveals={reveals} />
       </section>
+
+      <Footer />
     </>
   );
 }

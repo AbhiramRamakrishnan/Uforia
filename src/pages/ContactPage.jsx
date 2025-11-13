@@ -2,6 +2,8 @@ import Navbar from "../components/Global/navbar";
 import NavLogo from "../assets/navbar-logo.png";
 import ContactForm from "../components/Contact/ContactForm";
 import SocialIcons from "../components/Contact/SocialIcons";
+import Footer from '../components/Global/footer';
+
 
 export default function ContactPage() {
   return (
@@ -31,6 +33,8 @@ export default function ContactPage() {
       <section className="flex justify-center items-center gap-6 pb-10">
         <SocialIcons />
       </section>
+
+      <Footer />
     </>
   );
 }

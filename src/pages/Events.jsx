@@ -3,6 +3,8 @@ import { events } from "../data/eventsData";
 import Navbar from "../components/Global/navbar";
 import EventList from "../components/Events/EventList";
 import EventHero from "../components/Events/EventHero";
+import Footer from '../components/Global/footer';
+
 import NavLogo from "../assets/navbar-logo.png";
 import HeroImg from "../assets/Hero-bg.jpg";
 
@@ -64,6 +66,8 @@ export default function Events() {
           locationFilter={locationFilter}
         />
       </section>
+
+      <Footer />
     </>
   );
 }

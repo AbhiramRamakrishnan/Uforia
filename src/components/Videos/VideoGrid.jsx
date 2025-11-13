@@ -1,6 +1,6 @@
 export default function VideoGrid({ videos, onVideoClick }) {
   return (
-    <section className="max-w-7xl mx-auto px-3 pb-20 mt-1 md:mt-15">
+    <section className="max-w-7xl mx-auto px-3 pb-10 mt-1 md:mt-15 min-h-screen">
       <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-3 sm:gap-4">
         {videos.map((video, index) => (
           <div

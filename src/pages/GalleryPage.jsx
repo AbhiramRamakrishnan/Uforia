@@ -4,6 +4,8 @@ import NavLogo from "../assets/navbar-logo.png";
 import { galleryData } from "../data/galleryData";
 import GalleryGrid from "../components/Gallery/galleryGrid";
 import LightboxModal from "../components/Gallery/lightBoxModal";
+import Footer from '../components/Global/footer';
+
 
 export default function GalleryPage() {
   const [selectedIndex, setSelectedIndex] = useState(null);
@@ -52,6 +54,8 @@ export default function GalleryPage() {
         onPrev={prevImage}
         onNext={nextImage}
       />
+      
+      <Footer />
     </>
   );
 }

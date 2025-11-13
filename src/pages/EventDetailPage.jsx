@@ -4,6 +4,8 @@ import HeroImg from '../assets/Hero-bg.jpg'
 import NavLogo from '../assets/navbar-logo.png'
 import EventDetail from "../components/EventsDetails/EventDetails";
 import Navbar from "../components/Global/navbar";
+import Footer from '../components/Global/footer';
+
 
 export default function EventDetails() {
   const { id } = useParams();
@@ -25,6 +27,8 @@ export default function EventDetails() {
           ← Back to Events
         </Link>
       </div>
+
+      <Footer />
     </>
   );
 }
