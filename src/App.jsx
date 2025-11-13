@@ -8,7 +8,7 @@ import EventDetail from "./pages/EventDetailPage";
 import Updates from './pages/Updates';
 import GalleryPage from './pages/GalleryPage'
 import VideosPage from './pages/VideosPage'
-import ContactPage from './pages/contactPage'
+import ContactPage from './pages/ContactPage'
 
 
 const App = () => {
