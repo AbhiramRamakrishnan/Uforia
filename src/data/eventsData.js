@@ -7,12 +7,12 @@ export const events = [
     image: "/images/gallery/2025TVM/img10.jpg",
     shortDescription: "Uforia is the biggest Indie lineup for 2025 from Kerala! And its happening on the spacious outdoors of Trivandrum Lulu Mall! ",
     longDescription:
-      "Get ready to witness the pulse of Kerala’s indie scene as Uforia 2025 takes over the grand outdoors of Lulu Mall, Trivandrum! This isn’t just another concert — it’s a full-blown indie revolution, where raw energy, electrifying performances, and pure musical freedom collide. From powerful stage moments to unforgettable crowd vibes, Uforia promises an evening that will redefine live music experiences in the state.",
+      "Get ready to witness the pulse of Kerala’s indie scene as Uforia takes over the grand outdoors of Lulu Mall, Trivandrum! This isn’t just another concert — it’s a full-blown indie revolution, where raw energy, electrifying performances, and pure musical freedom collide. From powerful stage moments to unforgettable crowd vibes, Uforia promises an evening that will redefine live music experiences in the state.",
     lineup: ["Bloodywood ", "Avial", "Arogya", "Jhanu", "Crishna", "Iham Kavyam"],
     status: "upcoming",
     location: "Trivandrum",
     details:
-      "Uforia 2025 brings together top-tier artists, futuristic installations, and immersive experiences. Expect a full-day festival of electrifying performances and stunning visuals.",
+      "Uforia brings together top-tier artists, futuristic installations, and immersive experiences. Expect a full-day festival of electrifying performances and stunning visuals.",
     // regulations: [
     //   "Entry allowed only for individuals aged 16 and above.",
     //   "Carry a valid ID for entry verification.",
