@@ -4,7 +4,7 @@ export default function SocialIcons() {
   const socials = [
     { icon: <FaInstagram />, link: "https://www.instagram.com/uforia.in" },
     { icon: <FaYoutube />, link: "https://www.youtube.com/@fynoraentertainments" },
-    { icon: <FaWhatsapp />, link: "https://wa.me/919656735696" },
+    { icon: <FaWhatsapp />, link: "https://wa.me/919656735696?text=Hello%2C%20I%20would%20like%20to%20enquire%20about%20the%20event." },
     { icon: <FaFacebook />, link: "/contact" },
   ];
 
