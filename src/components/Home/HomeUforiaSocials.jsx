@@ -20,7 +20,7 @@ const HomeSocials = () => {
                             </svg>
                         </div>
                     </a>
-                    <a href="">
+                    <a href="https://www.youtube.com/@fynoraentertainments">
                         <div className='w-10 h-10 md:w-16 md:h-16 rounded-4xl justify-center flex bg-gradient-to-r from-[#FF0000]/10 via-[#E52D27]/10 to-[#CC0000]/10 border-2 border-red-300'>
                             <svg role="img"
                                 viewBox="0 0 24 24"

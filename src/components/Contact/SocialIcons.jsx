@@ -3,8 +3,8 @@ import { FaInstagram, FaYoutube, FaWhatsapp, FaFacebook } from "react-icons/fa";
 export default function SocialIcons() {
   const socials = [
     { icon: <FaInstagram />, link: "https://www.instagram.com/uforia.in" },
-    { icon: <FaYoutube />, link: "/contact" },
-    { icon: <FaWhatsapp />, link: "/contact" },
+    { icon: <FaYoutube />, link: "https://www.youtube.com/@fynoraentertainments" },
+    { icon: <FaWhatsapp />, link: "https://wa.me/919656735696" },
     { icon: <FaFacebook />, link: "/contact" },
   ];
 
