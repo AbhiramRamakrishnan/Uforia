@@ -34,6 +34,7 @@ export const events = [
     ],
     galleryVideos: [
       "/videos/gallery/2025TVM/vid1.mp4",
+      "/videos/gallery/2025TVM/vid2.mp4",
     ],
   },
 
