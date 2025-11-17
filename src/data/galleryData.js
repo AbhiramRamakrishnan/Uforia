@@ -7,5 +7,4 @@ export const galleryData = [
   { id: 6, imgUrl: "/images/gallery/2025TVM/img7.jpg", date: "2025-11-1" },
   { id: 7, imgUrl: "/images/gallery/2025TVM/img8.jpg", date: "2025-11-1" },
   { id: 8, imgUrl: "/images/gallery/2025TVM/img9.jpg", date: "2025-11-1" },
-  { id: 9, imgUrl: "/images/gallery/2025TVM/img10.jpg", date: "2025-11-4" },
 ];
