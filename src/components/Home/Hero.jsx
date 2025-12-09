@@ -7,7 +7,7 @@ const Hero = (prop) => {
     return (
         <>
             <section
-                className="relative flex items-center justify-center text-white min-h-screen sm:w-full"
+                className="relative flex items-center min-h-screen h-auto text-white sm:w-full"
                 style={{
                     backgroundImage: `url(${prop.HeroImg})`,
                     backgroundSize: "cover",
@@ -27,8 +27,8 @@ const Hero = (prop) => {
                     aria-hidden="true"
                 />
 
-                <div className="relative z-10 w-full text-center flex flex-col-reverse md:flex md:flex-row px-20 md:px-40 h-full pt-10 md:pt-18">
-                    <div className='md:w-1/2 sm:w-full text-center md:text-left pt-2 md:pt-5'>
+                <div className="relative z-10 w-full text-center flex flex-col-reverse md:flex md:flex-row px-20 md:px-40 pt-10 md:pt-14">
+                    <div className='md:w-[40%] sm:w-full text-center md:text-left pt-2 md:pt-5 md:mt-20'>
                         <div className='head'>
                             <h3 className='text-sm md:text-base text-white opacity-90 open-sans-medium'>FYNORA ENTERTAINMENTS</h3>
                             <h1 className='text-5xl md:text-6xl text-white opacity-100 montserrat-bold mt-3'>UFORIA</h1>
@@ -57,9 +57,31 @@ const Hero = (prop) => {
                             <p className='text-[11px] md:text-xs open-sans-regular opacity-60'>Follow Socials for Updates</p>
                         </div>
                     </div>
-                    <div className='md:w-1/2 sm:w-full pt-0 md:pt-5 pl-0 md:pl-40'>
-                        <div>
-                            <img src={prop.LogoImg} alt="UFORIA LOGO" className='h-[30vh] md:h-[70vh] mx-auto sm:mx-0' />
+                    <div className='md:w-[70%] sm:w-full flex items-center justify-center md:pt-5 md:pl-20'>
+                        <div className='md:w-[40%]'>
+                            <div className="
+                                px-8 py-10
+                                rounded-4xl
+                                bg-white/10
+                                backdrop-blur-xs
+                                shadow-[0_8px_32px_rgba(0,0,0,0.25)]
+                            ">
+                                <p className='text-2xl montserrat-semibold opacity-90 underline mb-3'>LINE UP</p>
+                                <p className='text-2xl montserrat-semibold opacity-90'>BLOODYWOOD</p>
+                                <p className='text-2xl montserrat-semibold opacity-90'>AVIYAL</p>
+                                <p className='text-2xl montserrat-semibold opacity-90'>AROGYA</p>
+                                <p className='text-2xl montserrat-semibold opacity-90'>JHANU</p>
+                                <p className='text-2xl montserrat-semibold opacity-90'>CRISHNA</p>
+                                <p className='text-2xl montserrat-semibold opacity-90'>IHAM KAVYAM</p>
+                            </div>
+
+                        </div>
+                        <div className='w-[60%] md:w-[85%]'>
+                            <img 
+                            src={prop.LogoImg} 
+                            alt="UFORIA LOGO" 
+                            className="max-h-[150vh] w-full object-contain mx-auto sm:mx-0"
+                            />
                         </div>
                     </div>
                 </div>
