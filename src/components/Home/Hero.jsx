@@ -58,7 +58,7 @@ const Hero = (prop) => {
                         </div>
                     </div>
                     <div className='md:w-[70%] sm:w-full flex items-center justify-center md:pt-5 md:pl-20'>
-                        <div className='md:w-[40%]'>
+                        <div className='md:w-[40%] hidden md:block'>
                             <div className="
                                 px-8 py-10
                                 rounded-4xl
@@ -76,7 +76,7 @@ const Hero = (prop) => {
                             </div>
 
                         </div>
-                        <div className='w-[60%] md:w-[85%]'>
+                        <div className='w-[100%] md:w-[85%]'>
                             <img 
                             src={prop.LogoImg} 
                             alt="UFORIA LOGO" 
