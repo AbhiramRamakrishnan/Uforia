@@ -30,7 +30,7 @@ export const updates = [
     title: "Early Bird Sold Out! Phase 1 Out Now!",
     content: "Phase 1 out now!!! Get yours before they are gone! :)",
     date: "2025-10-31T18:00:00",
-    pinned: true,
+    pinned: false,
   },
   {
     id: 5,
@@ -79,6 +79,14 @@ export const updates = [
     description: "Crishna @crishnajk is not the new kid in the block! But about to be the newest heart throb of Kerala! Come witness a new star being born!",
     image: "/images/updates/reveals/img6.jpg",
     date: "2025-11-01",
+  },
+  {
+    id: 11,
+    type: "announcement",
+    title: "Phase 1 Tickets Sold Out! Phase 2 Out Now!",
+    content: "Phase 2 out now!!! Get yours before they are gone! :)",
+    date: "2025-12-18T21:59:00",
+    pinned: true,
   },
   // {
   //   id: 11,
