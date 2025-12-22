@@ -68,7 +68,7 @@ const Hero = (prop) => {
                                 shadow-[0_8px_32px_rgba(0,0,0,0.25)]
                             ">
                                 <p className='text-2xl montserrat-semibold opacity-90 underline mb-3'>LINE UP</p>
-                                <p className='text-2xl montserrat-semibold opacity-90'>Announce Soon</p>
+                                <p className='text-2xl montserrat-semibold opacity-90'>Announce Soon <br />Check Past Events</p>
                                 {/* <p className='text-2xl montserrat-semibold opacity-90'>AVIYAL</p>
                                 <p className='text-2xl montserrat-semibold opacity-90'>AROGYA</p>
                                 <p className='text-2xl montserrat-semibold opacity-90'>JHANU</p>
