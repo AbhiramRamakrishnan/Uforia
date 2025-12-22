@@ -61,7 +61,12 @@ export default function EventDetails({ event }) {
             href={event.bookingLink}
             target="_blank"
             rel="noopener noreferrer"
-            className="mb-4 md:mb-0 bg-orange-500 hover:bg-orange-600 text-white poppins-semibold px-6 py-3 rounded-xl transition-all order-first md:order-none"
+            className={`mb-4 md:mb-0 bg-orange-500 hover:bg-orange-600 text-white poppins-semibold px-6 py-3 rounded-xl transition-all order-first md:order-none 
+              ${event.status === "past" 
+                ? "opacity-50 cursor-not-allowed" 
+                : ""
+
+              }`}
           >
             Book Tickets
           </a>
