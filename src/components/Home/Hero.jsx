@@ -57,7 +57,7 @@ const Hero = (prop) => {
                             <p className='text-[11px] md:text-xs open-sans-regular opacity-60'>Follow Socials for Updates</p>
                         </div>
                     </div>
-                    <div className='md:w-[70%] sm:w-full flex items-center justify-center md:pt-5 md:pl-20'>
+                    {/* <div className='md:w-[70%] sm:w-full flex items-center justify-center md:pt-5 md:pl-20'>
                         <div className='md:w-[40%] hidden md:block'>
                             <div className="
                                 px-8 py-10
@@ -83,7 +83,7 @@ const Hero = (prop) => {
                             className="max-h-[150vh] w-full object-contain mx-auto sm:mx-0"
                             />
                         </div>
-                    </div>
+                    </div> */}
                 </div>
             </section>
         </>
