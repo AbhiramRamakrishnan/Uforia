@@ -58,7 +58,7 @@ const Hero = (prop) => {
                         </div>
                     </div>
                     <div className='md:w-[70%] sm:w-full flex items-center justify-center md:pt-5 md:pl-20'>
-                        <div className='md:w-[40%] hidden '>
+                        <div className='md:w-[40%] hidden md:block'>
                             <div className="
                                 px-8 py-10
                                 rounded-4xl
@@ -66,13 +66,13 @@ const Hero = (prop) => {
                                 backdrop-blur-xs
                                 shadow-[0_8px_32px_rgba(0,0,0,0.25)]
                             ">
-                                <p className='text-2xl montserrat-semibold opacity-90 underline mb-3'>LINE UP</p>
+                                {/* <p className='text-2xl montserrat-semibold opacity-90 underline mb-3'>LINE UP</p>
                                 <p className='text-2xl montserrat-semibold opacity-90'>BLOODYWOOD</p>
                                 <p className='text-2xl montserrat-semibold opacity-90'>AVIYAL</p>
                                 <p className='text-2xl montserrat-semibold opacity-90'>AROGYA</p>
                                 <p className='text-2xl montserrat-semibold opacity-90'>JHANU</p>
                                 <p className='text-2xl montserrat-semibold opacity-90'>CRISHNA</p>
-                                <p className='text-2xl montserrat-semibold opacity-90'>IHAM KAVYAM</p>
+                                <p className='text-2xl montserrat-semibold opacity-90'>IHAM KAVYAM</p> */}
                             </div>
 
                         </div>
