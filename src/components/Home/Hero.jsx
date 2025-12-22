@@ -37,14 +37,15 @@ const Hero = (prop) => {
                         <div className='event mt-5 md:mt-10'>
                             <h6 className='text-sm text-white open-sans-medium underline underline-offset-8 decoration-1'>Upcoming Event</h6>
                             <div className='flex flex-col md:flex md:flex-row gap-3 md:gap-10 pt-6 sm:items-center'>
-                                <div className='flex gap-2'>
+                                {/* <div className='flex gap-2'>
                                     <CalendarDays size={16} className='mt-1' />
                                     <p className='text-sm md:text-base open-sans-regular opacity-90'>Dec 20, 2025</p>
                                 </div>
                                 <div className='flex gap-2'>
                                     <MapPin size={16} className='mt-1' />
                                     <p className='text-xs md:text-base open-sans-regular opacity-90'>LULU MALL , Trivandrum, Kerala.</p>
-                                </div>
+                                </div> */}
+                                Announce Soon
                             </div>
                             {/* <CountDown /> */}
                         </div>
