@@ -34,7 +34,7 @@ const Hero = (prop) => {
                             <h1 className='text-5xl md:text-6xl text-white opacity-100 montserrat-bold mt-3'>UFORIA</h1>
                             <h6 className='text-lg md:text-xl text-white opacity-70 poppins-regular mt-4'>One Stage Infinite Vibe</h6>
                         </div>
-                        {/* <div className='event mt-5 md:mt-10'>
+                        <div className='event mt-5 md:mt-10'>
                             <h6 className='text-sm text-white open-sans-medium underline underline-offset-8 decoration-1'>Upcoming Event</h6>
                             <div className='flex flex-col md:flex md:flex-row gap-3 md:gap-10 pt-6 sm:items-center'>
                                 <div className='flex gap-2'>
@@ -46,8 +46,8 @@ const Hero = (prop) => {
                                     <p className='text-xs md:text-base open-sans-regular opacity-90'>LULU MALL , Trivandrum, Kerala.</p>
                                 </div>
                             </div>
-                            <CountDown />
-                        </div> */}
+                            {/* <CountDown /> */}
+                        </div>
                         <div className='cta mt-10 md:mt-15'>
                             <a href="/events">
                                 <button className='text-sm md:text-base montserrat-semibold py-2 px-6 bg-[#E83DDC] rounded-xl'>Join the Experience</button>
