@@ -86,7 +86,7 @@ export const updates = [
     title: "Phase 1 Tickets Sold Out! Phase 2 Out Now!",
     content: "Phase 2 out now!!! Get yours before they are gone! :)",
     date: "2025-12-18T21:59:00",
-    pinned: true,
+    pinned: false,
   },
   // {
   //   id: 11,
