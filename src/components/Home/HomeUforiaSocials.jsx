@@ -34,7 +34,7 @@ const HomeSocials = () => {
                             </svg>
                         </div>
                     </a>
-                    <a href="">
+                    <a href="https://www.facebook.com/people/Fynora/61584576135388/">
                         <div className='w-10 h-10 md:w-16 md:h-16 rounded-4xl justify-center flex bg-gradient-to-r from-[#1877F2]/20 via-[#4AA3FF]/20 to-[#0F56C8]/20 border-2 border-blue-300'>
                             <svg role="img"
                                 viewBox="0 0 24 24"
