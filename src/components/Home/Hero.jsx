@@ -45,7 +45,7 @@ const Hero = (prop) => {
                                     <MapPin size={16} className='mt-1' />
                                     <p className='text-xs md:text-base open-sans-regular opacity-90'>LULU MALL , Trivandrum, Kerala.</p>
                                 </div> */}
-                                Announce Soon <br />Check Out Past Events
+                                Announce Soon <br />Check Out Past Events 
                             </div>
                             {/* <CountDown /> */}
                         </div>
