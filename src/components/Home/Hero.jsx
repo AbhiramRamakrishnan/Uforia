@@ -46,7 +46,7 @@ const Hero = (prop) => {
                                     <p className='text-xs md:text-base open-sans-regular opacity-90'>LULU MALL , Trivandrum, Kerala.</p>
                                 </div>
                             </div>
-                            <CountDown />
+                            {/* <CountDown /> */}
                         </div>
                         <div className='cta mt-10 md:mt-15'>
                             <a href="/events">
