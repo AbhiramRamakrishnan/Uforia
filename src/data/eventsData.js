@@ -9,7 +9,7 @@ export const events = [
     longDescription:
       "Get ready to witness the pulse of Kerala’s indie scene as Uforia takes over the grand outdoors of Lulu Mall, Trivandrum! This isn’t just another concert — it’s a full-blown indie revolution, where raw energy, electrifying performances, and pure musical freedom collide. From powerful stage moments to unforgettable crowd vibes, Uforia promises an evening that will redefine live music experiences in the state.",
     lineup: ["Bloodywood ", "Avial", "Arogya", "Jhanu", "Crishna", "Iham Kavyam"],
-    status: "upcoming",
+    status: "past",
     location: "Trivandrum",
     details:
       "Uforia brings together top-tier artists, futuristic installations, and immersive experiences. Expect a full-day festival of electrifying performances and stunning visuals.",
