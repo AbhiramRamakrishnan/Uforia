@@ -1,13 +1,4 @@
 export const galleryData = [
-  { id: 1, imgUrl: "/images/gallery/2025TVM/img2.jpg", date: "2025-11-2" },
-  { id: 2, imgUrl: "/images/gallery/2025TVM/img3.jpg", date: "2025-11-2" },
-  { id: 3, imgUrl: "/images/gallery/2025TVM/img4.jpg", date: "2025-11-1" },
-  { id: 4, imgUrl: "/images/gallery/2025TVM/img5.jpg", date: "2025-11-1" },
-  { id: 5, imgUrl: "/images/gallery/2025TVM/img6.jpg", date: "2025-11-1" },
-  { id: 6, imgUrl: "/images/gallery/2025TVM/img7.jpg", date: "2025-11-1" },
-  { id: 7, imgUrl: "/images/gallery/2025TVM/img8.jpg", date: "2025-11-1" },
-  { id: 8, imgUrl: "/images/gallery/2025TVM/img9.jpg", date: "2025-11-1" },
-  // { id: 9, imgUrl: "/images/gallery/2025TVM/img10.jpg", date: "2025-11-2" },
   { id: 10, imgUrl: "/images/gallery/2025TVM/img11.jpeg", date: "2026-31-1" },
   { id: 11, imgUrl: "/images/gallery/2025TVM/img12.jpeg", date: "2026-31-1" },
   { id: 12, imgUrl: "/images/gallery/2025TVM/img13.jpeg", date: "2026-31-1" },
@@ -28,4 +19,15 @@ export const galleryData = [
   { id: 27, imgUrl: "/images/gallery/2025TVM/img28.jpeg", date: "2026-31-1" },
   { id: 28, imgUrl: "/images/gallery/2025TVM/img29.jpeg", date: "2026-31-1" },
   { id: 29, imgUrl: "/images/gallery/2025TVM/img30.jpeg", date: "2026-31-1" },
+  
+  { id: 1, imgUrl: "/images/gallery/2025TVM/img2.jpg", date: "2025-11-2" },
+  { id: 2, imgUrl: "/images/gallery/2025TVM/img3.jpg", date: "2025-11-2" },
+  { id: 3, imgUrl: "/images/gallery/2025TVM/img4.jpg", date: "2025-11-1" },
+  { id: 4, imgUrl: "/images/gallery/2025TVM/img5.jpg", date: "2025-11-1" },
+  { id: 5, imgUrl: "/images/gallery/2025TVM/img6.jpg", date: "2025-11-1" },
+  { id: 6, imgUrl: "/images/gallery/2025TVM/img7.jpg", date: "2025-11-1" },
+  { id: 7, imgUrl: "/images/gallery/2025TVM/img8.jpg", date: "2025-11-1" },
+  { id: 8, imgUrl: "/images/gallery/2025TVM/img9.jpg", date: "2025-11-1" },
+  // { id: 9, imgUrl: "/images/gallery/2025TVM/img10.jpg", date: "2025-11-2" },
+  
 ];
